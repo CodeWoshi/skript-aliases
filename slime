@@ -1,0 +1,7 @@
+on death:
+ if victim is  a slime:
+  if attacker is a player:
+   drop 1 slime ball named "&2Slime Ball" with lore "&f&lCommon"
+  
+chance of 10%:
+ drop 1 scute named "&2Rare Slime" with lore "&2&lUncommon" at victim
